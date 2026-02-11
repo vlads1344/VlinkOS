@@ -2,7 +2,7 @@ import requests
 import os
 import sys
 
-CURRENT_VERSION = "0.3"
+CURRENT_VERSION = "1.0"
 UPDATE_URL = "http://45.143.138.52/vlinkos" # Папка на сервере
 
 def run():
@@ -40,4 +40,5 @@ def update_files(file_list):
     print("\n\033[1;32mUpdate complete! Please run 'rst' to restart.\033[0m")
 
 if __name__ == "__main__":
+
     run()
